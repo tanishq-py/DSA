@@ -1,0 +1,4 @@
+// Encapsulation: The bundling of data and methods that operate on the data into a single unit, known as a class. It helps in hiding the internal details of how an object works.
+// Inheritance: The ability of a class (subclass or derived class) to inherit properties and behaviors from another class (superclass or base class). This promotes code reusability and establishes a relationship between classes.
+// Polymorphism: The ability of objects of different classes to be treated as objects of a common base class. Polymorphism allows for flexibility and extensibility in code design.
+// Abstraction: The process of simplifying complex systems by modeling classes based on the essential properties and behaviors they share. It involves hiding the unnecessary details and showing only the relevant features of an object.
