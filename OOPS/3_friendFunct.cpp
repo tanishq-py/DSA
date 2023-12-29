@@ -47,7 +47,6 @@ public:
     int getValue() const {
         return value;
     }
-
     // Non-constant member function
     void setValue(int v) {
         value = v;
