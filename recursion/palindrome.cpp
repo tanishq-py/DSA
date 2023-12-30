@@ -17,3 +17,14 @@ int main(){
     cout<<palindrome(arr, i,n);
     return 0;
 }
+
+//2nd method
+bool isPalindrome(string& str) {
+    static int i=0;
+    static int j=str.size()-1;
+    if(i>j) return true;
+    if(str[i]!=str[j]) return false;
+    i++;
+    j--;
+    return true&&isPalindrome(str);
+}
