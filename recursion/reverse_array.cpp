@@ -15,3 +15,12 @@ int main(){
     reverse(arr, l,r);
     return 0;
 }
+
+
+//2nd method
+vector<int> reverseArray(int n, vector<int> &nums)
+{
+    if(n<=0) return {};
+    cout<<nums[n-1]<<" ";
+    return reverseArray(n-1, nums);
+}
