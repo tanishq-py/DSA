@@ -17,4 +17,13 @@ vector<int> printNos(int x) {
     return printNos(x - 1);
 }
 
+//print n to 1
+vector<int> printNos(int x) {
+    int i=x;
+    if(x<=0) return {};
+    cout<<i<<" ";
+    i--;
+    return printNos(x-1);
+}
+
 
