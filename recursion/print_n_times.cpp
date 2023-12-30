@@ -1,17 +1,8 @@
-#include<bits/stdc++.h>
-using namespace std;
-int name(int i, int a){
-    if(i>a){
-        return 0;
-    }
-    cout<<i<<endl;
-    name(i+1,a);
+//print name n times
+vector<string> printNTimes(int n) {
+	if(n<=0) return {};
+	cout<<"Coding Ninjas ";
+	return printNTimes(n-1);
 }
 
-int main(){
-    int n;
-    cin>>n;
-    int i=0;
-    name(i,n);
-    return 0;
-}
+
