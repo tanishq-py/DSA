@@ -5,7 +5,7 @@ int search(vector<int> &nums, int target) {
     int l=0;
     int r= nums.size()-1;
     int mid= l + (r-l)/2;
-    for(int i=0;i<nums.size();i++){
+    while(l<=r{
         if(target==nums[mid]) return mid;
         else if(target>nums[mid]) l=mid+1;
         else if(target<nums[mid]) r=mid-1;
