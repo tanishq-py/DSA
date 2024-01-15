@@ -12,6 +12,5 @@ bool checkArmstrong(int n){
 	return false;
 }
 
-//o(Log(n))
 
 
